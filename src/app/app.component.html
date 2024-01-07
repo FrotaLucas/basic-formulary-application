@@ -1,0 +1,19 @@
+<div class="container">
+  <h1> Projeto {{title}}</h1>
+
+  <div class="form-group mb-3">
+    <label class="mb-2" for="">Digite seu nome</label>
+    <input id="inText" class="form-control" [(ngModel)]="name">
+  </div>
+  <button class="btn btn-success mb-5" (click)="add()">Adicionar</button>
+  <h1 class="alert alert-danger"> Ola Mundo, seja Bem vindo {{name}} </h1>
+  <table class="table">
+    <tr *ngFor="let v of vetor,let i=index">
+      <td>{{i}}</td>
+      <td>{{v}}</td>
+      <td> <button class="btn btn-outline-danger" (click)="remove(i)">X</button></td>
+
+    </tr>
+  </table>
+
+</div>
