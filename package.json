@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "predeploy": "ng build && mv dist/website-menu docs",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d docs",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
