@@ -34,3 +34,4 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }} # Token de autenticação automático
         publish_dir: ./dist/website-menu # Diretório gerado pelo building
+        publish_branch: gh-pages #forcar a publicacao na branch gh-pages
