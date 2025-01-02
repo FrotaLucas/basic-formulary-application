@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "predeploy": "ng build --base-href '/basic-formulary-application/'",
+    "predeploy": "ng build --base-href /basic-formulary-application/",
     "deploy": "gh-pages -d dist/website-menu",
     "start": "ng serve",
     "build": "ng build",
