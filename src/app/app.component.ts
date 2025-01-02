@@ -10,15 +10,21 @@ export class AppComponent {
   name: any = ' ';
   vetor = ['Lucas', 'Birgitt', 'Teresa', 'Johanna'];
   showH1: boolean = false;
+  showError: boolean = false;
+
   add() {
     let n = this.name;
-    this.vetor.push(n);
 
-    this.showH1 = true;
-
-    setTimeout(() => {
-      this.showH1 = false;
-    }, 2000);
+    if (n !== ' ') {
+      this.vetor.push(n);
+      this.showH1 = true;
+      this.showError = false;
+      setTimeout(() => {
+        this.showH1 = false;
+      }, 2000);
+    } else {
+      this.showError = true;
+    }
   }
 
   remove(i: number) {
