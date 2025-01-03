@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "build": "ng build",
     "predeploy": "ng build --base-href /basic-formulary-application/",
     "deploy": "gh-pages -d dist/website-menu",
     "start": "ng serve",
-    "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
