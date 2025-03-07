@@ -12,6 +12,7 @@ export class AppComponent {
   showH1: boolean = false;
   // showError: boolean = false;
   content: string = '';
+
   add() {
     let n = this.name;
 
