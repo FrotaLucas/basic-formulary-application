@@ -12,12 +12,12 @@
   flex-direction: row;
   align-items: center;
   gap: 10px;
+}
+button {
+  margin-bottom: 0 !important;
+}
 
-  button {
-    margin-bottom: 0 !important;
-  }
-  h3 {
-    padding: 0;
-    margin-bottom: 0 !important;
-  }
+h3 {
+  padding: 0;
+  margin-bottom: 0 !important;
 }
